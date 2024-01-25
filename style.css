@@ -18,7 +18,7 @@ h1 span {
   justify-content: center;
   gap: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, 200px);
   grid-auto-rows: 250px;
   grid-auto-flow: row;
 }
@@ -29,14 +29,16 @@ h1 span {
   align-items: center;
   border: #999 solid 1px;
   border-radius: 10px;
-  width: 300px;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
+  background: linear-gradient(to bottom, #c2c1c1 20%, #fff 40%);
 }
+
 .template-div:hover {
   transform: scale(1.1);
-  background-color: #222;
   color: #fff;
   box-shadow: 5px 10px 20px #000;
+  background: none;
+  background-color: #222;
 }
 
 .template-img {
