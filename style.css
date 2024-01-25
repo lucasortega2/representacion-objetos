@@ -67,3 +67,8 @@ h1 span {
   background-color: #2980b9;
   color: #333;
 }
+@media screen and (max-width: 767px) {
+  #array {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
